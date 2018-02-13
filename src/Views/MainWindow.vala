@@ -53,6 +53,6 @@ public class MainWindow : Gtk.ApplicationWindow {
         this.stack.visible_child = this.welcome;
         this.search_view.empty_results_grid ();
         this.hb.hide_back_button ();
-        this.hb.get_search_entry ().grab_focus ();
+        //this.hb.get_search_entry ().grab_focus ();
     }
 }
