@@ -134,10 +134,13 @@ public class SearchResultView : Gtk.Grid {
     //public void on_list_item_clicked (ListBoxRowWithData b) {
     public void on_list_item_clicked (Gtk.Button b) {
         var button = (ListBoxRowWithData) b;
-        print (button.get_id ());
+        var food_id = button.get_id ();
+        var nutrition_window = new FoodNutritionView (food_id);
+        nutrition_window.show_all ();
     }
 
     public void hide_list_box () {
+        //TODO maybe call this instead of emptying the grid
         //list_box.hide ();
     }
 }
