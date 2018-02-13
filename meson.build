@@ -1,15 +1,22 @@
-project('com.github.anderrasovazquez.nutrition', 'vala', 'c')
+project('com.github.anderrasovazquez.nutrition', 'vala', 'c',
+    version : '0.1.0',
+    license: 'GPL-3.0'
+)
+
+add_project_arguments([
+        '-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name())
+    ],
+    language: 'c',
+)
+
+i18n = import('i18n')
+
+subdir('po')
+subdir('src')
 
 executable(
     meson.project_name(),
-    'src/Main.vala',
-    'src/Views/SearchResultView.vala',
-    'src/Views/MainWindow.vala',
-    'src/Views/WelcomeView.vala',
-    'src/Controllers/FoodSearcher.vala',
-    'src/Controllers/FacadeNutrition.vala',
-    'src/Widgets/Header.vala',
-    'src/Widgets/ListBoxRowWithData.vala',
+    sources,
     dependencies: [
         dependency('gtk+-3.0'),
         dependency('granite'),
