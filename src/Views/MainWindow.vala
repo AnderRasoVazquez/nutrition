@@ -51,6 +51,7 @@ public class MainWindow : Gtk.ApplicationWindow {
     private void on_back_button_press () {
         this.search_view.hide_list_box ();
         this.stack.visible_child = this.welcome;
+        this.search_view.empty_results_grid ();
         this.hb.hide_back_button ();
         this.hb.get_search_entry ().grab_focus ();
     }
