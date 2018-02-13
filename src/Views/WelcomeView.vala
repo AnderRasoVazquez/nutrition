@@ -5,7 +5,7 @@ public class WelcomeView: Gtk.Grid {
 
     // TODO quitar el title
     public WelcomeView (string title) {
-        welcome = new Granite.Widgets.Welcome (title, "USDA Food Composition Database");
+        welcome = new Granite.Widgets.Welcome (title, _("USDA Food Composition Database"));
         welcome.append ("text-x-source", "Get Nutrition Source Code", "Nutrition's source code is hosted on GitHub.");
 
         this.add (welcome);
