@@ -23,3 +23,11 @@ This app uses USDA Food Composition Database's API to search foods and show it's
 + [ ] Show nutrients
     + [ ] Design nutrient view.
     + [ ] Implement nutrient view.
+
+# How to compile
+
++ Clone repository and `cd` to it.
++ `meson build --prefix=/usr`
++ `cd build`
++ `ninja`
++ `./com.github.anderrasovazquez.nutrition`
