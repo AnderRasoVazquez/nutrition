@@ -1,11 +1,8 @@
 public class FoodSearcher : Object {
 
     private static FoodSearcher food_searcher = null;
-    private int offset;
 
-    private FoodSearcher () {
-        offset = 0;
-    }
+    private FoodSearcher () {}
 
     public static FoodSearcher get_food_searcher () {
         if (food_searcher == null) {
