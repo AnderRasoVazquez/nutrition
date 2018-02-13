@@ -1,0 +1,27 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.anderrasovazquez.nutrition package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.anderrasovazquez.nutrition\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-13 20:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Views/MainWindow.vala:17
+msgid "Nutrition"
+msgstr ""
+
+#. TODO quitar el title
+#: src/Views/WelcomeView.vala:8
+msgid "USDA Food Composition Database"
+msgstr ""

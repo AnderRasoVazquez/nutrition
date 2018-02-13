@@ -1,0 +1,9 @@
+src/Main.vala
+src/Views/FoodNutritionView.vala
+src/Views/SearchResultView.vala
+src/Views/MainWindow.vala
+src/Views/WelcomeView.vala
+src/Controllers/FoodSearcher.vala
+src/Controllers/FacadeNutrition.vala
+src/Widgets/Header.vala
+src/Widgets/ListBoxRowWithData.vala
