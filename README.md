@@ -14,7 +14,7 @@ This app uses USDA Food Composition Database's API to search foods and show it's
 # Tasks
 
 + [x] Welcome screen
-    + [x] Desgin welcome screen
+    + [x] Design welcome screen
     + [x] Transitions between views.
     + [x] Search on Enter.
 + [x] Search foods
