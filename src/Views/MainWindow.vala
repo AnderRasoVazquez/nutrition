@@ -13,7 +13,8 @@ public class MainWindow : Gtk.ApplicationWindow {
         this.default_height = 600;
         this.default_width = 800;
         this.set_size_request (800, 600);
-        welcome = new WelcomeView ("Nutrition");
+        this.window_position = Gtk.WindowPosition.CENTER;
+        welcome = new WelcomeView (_("Nutrition"));
         search_view = new SearchResultView ();
         this.set_titlebar(hb);
         var search_entry = hb.get_search_entry ();
