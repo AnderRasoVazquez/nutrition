@@ -2,6 +2,7 @@
 
 This app uses USDA Food Composition Database's API to search foods and show it's nutrient composition.
 
+![](https://i.imgur.com/SiLVJO7.gif)
 
 # Dependencies
 
